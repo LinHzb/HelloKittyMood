@@ -1,0 +1,80 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #ff69b4;
+    color: white;
+    padding: 20px;
+}
+
+/* Estilo dos títulos */
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Estilo das seções de humor */
+.mood {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo das imagens */
+.mood img {
+    width: 100px;
+    height: auto;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Efeito hover nos botões */
+button:hover {
+    background-color: #ff1493;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 600px) {
+    .mood {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px 0;
+    }
+}

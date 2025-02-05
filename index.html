@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Kitty Mood Matcher</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hello Kitty Mood Matcher</h1>
+        <p>Selecione seu humor e descubra uma música da Chapel Roan para acompanhar!</p>
+    </header>
+    <main>
+        <section class="mood" id="happy">
+            <img src="images/dibas.png" alt="Hello Kitty Feliz">
+            <h2>Feliz</h2>
+            <button onclick="shareMood('happy')">Compartilhar no WhatsApp</button>
+        </section>
+        <section class="mood" id="sad">
+            <img src="images/sad.png" alt="Hello Kitty Triste">
+            <h2>Triste</h2>
+            <button onclick="shareMood('sad')">Compartilhar no WhatsApp</button>
+        </section>
+        <section class="mood" id="calm">
+            <img src="images/chill.png" alt="Hello Kitty Calma">
+            <h2>Calma</h2>
+            <button onclick="shareMood('calm')">Compartilhar no WhatsApp</button>
+        </section>
+        <section class="mood" id="stressed">
+            <img src="images/angry.png" alt="Hello Kitty Estressada">
+            <h2>Estressada</h2>
+            <button onclick="shareMood('stressed')">Compartilhar no WhatsApp</button>
+        </section>
+        <section class="mood" id="cranky">
+            <img src="images/oxi.png" alt="Hello Kitty A Manivela">
+            <h2>A Manivela</h2>
+            <button onclick="shareMood('cranky')">Compartilhar no WhatsApp</button>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
