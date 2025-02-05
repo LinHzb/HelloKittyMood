@@ -2,23 +2,23 @@ function shareMood(mood) {
     const moods = {
         happy: {
             text: 'Feliz',
-            music: 'https://link-da-musica-feliz.com'
+            music: 'https://www.youtube.com/watch?v=dLoJGzpkMVo'
         },
         sad: {
             text: 'Triste',
-            music: 'https://link-da-musica-triste.com'
+            music: 'https://www.youtube.com/watch?v=dLoJGzpkMVo'
         },
         calm: {
             text: 'Calma',
-            music: 'https://link-da-musica-calma.com'
+            music: 'https://www.youtube.com/watch?v=dLoJGzpkMVo'
         },
         stressed: {
             text: 'Estressada',
-            music: 'https://link-da-musica-estressada.com'
+            music: 'https://www.youtube.com/watch?v=dLoJGzpkMVo'
         },
         cranky: {
             text: 'A Manivela',
-            music: 'https://link-da-musica-a-manivela.com'
+            music: 'https://www.youtube.com/watch?v=dLoJGzpkMVo'
         }
     };
 
